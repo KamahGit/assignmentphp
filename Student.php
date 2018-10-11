@@ -13,9 +13,7 @@ class Student
     public $age;
     public $gender;
 
-    public function welCome(){
-        echo "Welcome To Punjab University<br />";
-    }
+
     public function getName(){
         echo "<b>Student Name</b> :".$this->name."<br />";
     }
@@ -29,13 +27,25 @@ class Student
         echo "<b>Student Gender</b> :".$this->gender."<br />";
     }
 }
-$student1 = new Student();
-$student1->name = "Ferdinand Waititu";
-$student1->gender = "male";
-$student1->class = "Governance";
-$student1->age = 25;
-$student1->welCome();
-$student1->getName();
-$student1->getAge();
-$student1->getClass();
-$student1->getGender();
+
+
+$students_array =
+[
+    ['name'=>'John','class'=>'Evening','age'=>24,'gender'=>'Male'],
+    ['name'=>'Sheila','class'=>'Morning','age'=>'30','gender'=>'Female'],
+    ['name'=>'Brathe','class'=>'Afte','age'=>'37','gender'=>'Male']
+
+];
+foreach ($students_array as $student)
+{
+    $stud = new Student();
+    $stud->name = $student['name'];
+    $stud->age = $student['age'];
+    $stud->class = $student['class'];
+    $stud->gender = $student['gender'];
+    $stud->getName();
+    $stud->getAge();
+    $stud->getGender();
+    $stud->getClass();
+    echo "<br />";
+}
