@@ -7,7 +7,7 @@ include_once ('objectTestInterface.php');
 class Parentclass implements objectTestInterface
 {
 	protected $vat;
-
+	
 	public function TestObject($object)
 	{
 		if(is_object($object)){
