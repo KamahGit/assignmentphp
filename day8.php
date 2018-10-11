@@ -16,7 +16,7 @@ class Parentclass implements objectTestInterface
 					echo $key . " is Private/Protected <br>";
 				}
 				else {
-					echo $key ."=". $value . " is Public it should be private<br>";
+					echo $key ."  = ". $value . " is Public it should be private <br>";
 				}
 			}
 		}
