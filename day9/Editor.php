@@ -1,5 +1,5 @@
 <?php
-include_once ('day9.php');
+include_once('day9.php');
 class Editor extends User
 {
     protected $numberOfArticles;
