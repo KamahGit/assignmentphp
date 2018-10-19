@@ -5,7 +5,7 @@
  * Date: 10/8/2018
  * Time: 4:39 PM
  */
-include_once ('StudentClass.php');
+include_once ('StudentClass_day4_day5_day6.php');
 class ClassRep extends StudentClass
 {
 public $duties;

@@ -5,6 +5,7 @@
  * Date: 10/8/2018
  * Time: 5:46 PM
  */
+ namespace \assignments;
 include_once ('Fruitparent.php');
 class Apple extends Fruitparent
 {

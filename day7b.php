@@ -1,8 +1,8 @@
 <?php
 /**
- * 
+ *
  */
-include_once ('StudentAbstract.php');
+include_once ('day7.php');
 class Classreptwo extends StudentAbstract
 {
 	private $class;
