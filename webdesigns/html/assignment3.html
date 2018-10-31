@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>day 2</title>
+    <style>
+       .inputing {
+           width: 500px;
+           float: right;
+           clear: inherit;
+           margin-right: 40%;
+        
+       }
+
+       /* label {
+        float: left;
+        padding-bottom: 5px;  
+        clear: both;  
+        width: 10em; 
+        margin-right: 1em;  
+       } */
+       button  {
+           float: right;
+           clear: both;
+           margin-right: 70%;
+           padding: 10px;
+           margin-top: 20px;
+           background-color: blue;
+       }
+  
+    </style>
+</head>
+<body>
+    <form action="server.php" method="post">
+        <label for="tel">Contact Person Phone number*</label>
+        <input type="tel" class="inputing" name="telnum" id="tel" placeholder="Contact Person Phone" required><br>
+        <br><label for="sit">Site Name/Estate*</label>
+        <input type="text" name="site" class="inputing" id="sit" placeholder="Site Name/Estate" required><br />
+        <br><label for="hse">House Number</label>
+        <input type="number" class="inputing" name="housenum" id="hse" placeholder="House Number .."><br />
+        <br><label for="rdt">Date Reported*</label>
+        <input type="datetime" class="inputing" name="reporteddt" id="rdt" placeholder="Select Date and Time" required><br />
+        <br><label for="time">Scheduled Time*</label>
+
+        <input type="radio" name="time" id="time" >Yes
+        <input type="radio" name="time" id="time">No<br>
+       
+        <input type="datetime" class="inputing" name="sdt" id="time" placeholder="Select Date and Time"><br>
+        <br><label for="eng">Assign To </label>
+
+        <input type="text" class="inputing" name="engineer" id="eng" placeholder="Assign  Engineer"><br>
+        <br><label for="att">Attachment(Optional)</label>
+
+        <input style="border: 1px dotted black; padding: 30px; border-radius: 10px; margin-right: 39%;" type="file" class="inputing" name="att" id="att"><br>
+        <button type="submit"  value="Save" name="save">Save</button><br>
+
+    </form>
+</body>
+</html>

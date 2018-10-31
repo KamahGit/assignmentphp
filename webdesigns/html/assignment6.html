@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+        <canvas id="canvas1" style="border: 1px solid black;" width="500" height="500"></canvas>
+    </body>
+        <script>
+        
+        var can = document.getElementById('canvas1');
+        var ctx = can.getContext('2d');
+        
+        ctx.lineWidth = 1;
+        
+        // linear gradient from start to end of line
+        var grad= ctx.createLinearGradient(0, 0, 150, 150);
+        grad.addColorStop(0, "red");
+       
+        
+        ctx.strokeStyle = grad;
+        
+        ctx.beginPath();
+        ctx.moveTo(0,0);
+        ctx.lineTo(500,500);
+        
+        ctx.stroke();
+        </script>
+
+</html>
