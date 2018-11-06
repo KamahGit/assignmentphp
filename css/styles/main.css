@@ -1,0 +1,49 @@
+.one,.three{
+    padding: 10px;
+    background: cadetblue;
+}
+#two {
+    background: lightgreen;
+    height: 300px;
+    color: darkblue;
+    padding-left: 20px;
+    padding-top: 50px;
+}
+.broke {
+    /*height: 100%;*/
+    color: black;
+    font-weight: bolder;
+    background: crimson;
+    padding: 55px;
+    font-family: cursive;
+    font-style: oblique;
+}
+.banner {
+    width: 100%;
+    height: 500px;
+    padding: 10%;
+    background-size: cover;
+    background: no-repeat center top;
+}
+
+.overlay{
+    background: rgba(0,0,0,0.5);
+    color: #ffffff;
+    padding: 10%;
+    height:500px;
+    transition: 1.7s;
+    text-align: center;
+
+}
+.overlay:hover {
+    background: rgba(0,0,0,0.75);
+    transition: 1.7s;
+    color: #ffffff;
+    height:500px;
+
+    padding: 10%;
+    text-transform: lowercase;
+    font-family: 'Segoe UI',Serif;
+    text-align: center;
+    border: 3px solid lightblue;
+}
