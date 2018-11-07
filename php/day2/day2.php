@@ -1,11 +1,10 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: Bruce
- * Date: 10/3/2018
- * Time: 5:27 PM
- */
-
+* Task 
+* Create a class named student and implement at least three 
+* functions related to the class portraying the understanding of 
+* the above discussed concepts. 
+*/
 class Student
 {
     public $name;

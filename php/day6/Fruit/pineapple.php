@@ -5,8 +5,8 @@
  * Date: 10/8/2018
  * Time: 5:46 PM
  */
-include_once ('day6a.php');
-class PineApple extends Fruitparent
+require_once ('Fruit.php');
+class PineApple extends Fruit\Fruitparent
 {
 
 

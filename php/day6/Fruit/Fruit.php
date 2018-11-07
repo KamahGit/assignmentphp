@@ -1,11 +1,13 @@
 <?php
+namespace Fruit;
 /**
- * Created by PhpStorm.
- * User: Bruce
- * Date: 10/8/2018
- * Time: 5:48 PM
- */
-
+* Create a class: Fruit, and have several fruit types
+* (e.g. mango, apple, pineapples, dates) inherit from it. 
+* In this example: ensure that you demonstrate the use of the 
+* concepts stated below: parent class, child class, protected
+* access modifier, method overriding, and the use of the final
+* keyword to prevent method overriding.
+*/
 class Fruitparent
 {
     protected $is_juicy;
@@ -24,7 +26,7 @@ class Fruitparent
         return $this->is_juicy > 0 ? "Juicy Fruit" : "Dry Fruit";
     }
 
-    public final function displayFruit(){
+    public function displayFruit(){
         echo "this fruit is ".$this->color." and costs ".$this->price." and its a ".$this->getisJuicy();
     }
 

@@ -1,9 +1,15 @@
 <?php
-
-class Studentday3
+/**
+* Task 
+* Add two methods to represent the application and admission 
+* functionalities the Student class. The methods would echo a string
+* placeholder or their actual purpose. 
+*/
+class Student
 {
     private $name;
     private $class;
+    //initialized admitted and applied vars as false
     private $is_admitted = false;
     private $is_applying = false;
 
@@ -44,5 +50,9 @@ class Studentday3
         echo "STUDENT : ".$this->name."CLASS : ".$this->class.$app.$adm."<br />";
     }
 }
-$stud = (new Studentday3())->setName('James Kinyua')->setClass('one')->apply()->getAdmitted()->getStatus();
-$stud2 = (new Studentday3())->setName('Huan Hames')->setClass('Two')->getAdmitted()->getStatus();
+
+//applied
+$stud = (new Student())->setName('James Kinyua')->setClass('one')->apply()->getAdmitted()->getStatus();
+
+//didnt apply
+$stud2 = (new Student())->setName('Huan Hames')->setClass('Two')->getAdmitted()->getStatus();

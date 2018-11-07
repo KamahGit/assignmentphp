@@ -1,13 +1,6 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Bruce
- * Date: 10/8/2018
- * Time: 5:46 PM
- */
- namespace \assignments;
-include_once ('Fruitparent.php');
-class Apple extends Fruitparent
+require_once ('Fruit.php');
+class Apple extends Fruit\Fruitparent
 {
 
 

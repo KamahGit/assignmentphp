@@ -5,7 +5,7 @@
  * Date: 10/8/2018
  * Time: 4:39 PM
  */
-include_once ('StudentClass_day4_day5_day6.php');
+include_once ('student.php');
 class ClassRep extends StudentClass
 {
 public $duties;
@@ -35,6 +35,6 @@ public $duties;
 }
 $rep = array('fname' => 'James', 'lname' => 'Kinyanjui', 'age' => 17, 'year' => 1, 'feepaid' => 50000,'duty'=>['keep class quiet<br>','send reports<br>']);
 $rep1 = new ClassRep($rep['fname'],$rep['lname'],$rep['age'],$rep['year'],$rep['feepaid'],$rep['duty']);
-//var_dump($rep1);
+$rep1->balance = StudentClass::$fee-$rep1->getFeePaid();
 echo "<br>CLASS PREFECT<br>";
 $rep1->displayStudents();

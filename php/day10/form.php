@@ -1,9 +1,7 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: Bruce
- * Date: 10/11/2018
- * Time: 6:40 PM
+
+ Task Create a simple register and login form and save the data in the database as illustrated above. 
  */
  include_once ('server.php');
  ?>

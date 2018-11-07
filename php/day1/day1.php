@@ -1,4 +1,13 @@
 <?php
+
+/** Task
+*	Create a code sample in both Procedural and OOP and 
+*   highlight the advantages of OOP over Procedural 
+*	programming as portrayed in your code sample. 
+*/
+
+
+
 /**
  * OOP
  */
