@@ -6,6 +6,7 @@ body{
 .nav-bar{
     position: fixed;
     top: 0;
+    /* yea */
     width: 100%;
     background: #fff;
     padding: 10px 10px;
