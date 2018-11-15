@@ -1,0 +1,7 @@
+    background: #eee;
+is lighter than ->
+    background: #ccc;
+
+    making a good table/hover/combo
+    looks like a mac display with border #ccc
+    and stripe #eee
