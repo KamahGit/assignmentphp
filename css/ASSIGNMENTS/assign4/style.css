@@ -29,7 +29,6 @@ body{
 .nav-bar a{
     text-decoration: none;
     padding: 10px;
-    float: left;
     font-family: "Segoe UI";
     display: block;
 }
@@ -42,3 +41,7 @@ body{
     margin-top: 35px;
     height: 1000px;
 }
+.lefty{
+/* float:right; */
+position: absolute;
+right: 20px;}
