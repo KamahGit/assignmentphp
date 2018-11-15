@@ -5,6 +5,12 @@ body {
 }
 .nav-bar{
     margin-bottom: 15px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
 }
 .nav-bar ul{
     list-style: none;
@@ -13,7 +19,7 @@ body {
     background-color: #f8b624;
     font-size: 20px;
     overflow: hidden;
-    width: auto;
+    /* width: 100%; */
     box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
@@ -52,4 +58,5 @@ a, a:hover{
 .dropdown:hover .dropcontent{
     display: block;
 }
+
 

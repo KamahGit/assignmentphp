@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    /* padding: 0; */
+}
+
+.nav-bar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #fff;
+    padding: 10px 10px;
+    overflow: hidden;
+    box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    opacity: 0.8;
+
+}
+.nav-bar ul{
+    background: #ccc;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-bar li{
+    float: left;
+    
+
+}
+.nav-bar a{
+    text-decoration: none;
+    padding: 10px;
+    float: left;
+    font-family: "Segoe UI";
+    display: block;
+}
+.nav-bar a:hover{
+    color: #ff0000;
+   
+}
+.content{
+    padding: 16px;
+    margin-top: 35px;
+    height: 1000px;
+}

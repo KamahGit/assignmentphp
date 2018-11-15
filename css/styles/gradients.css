@@ -1,0 +1,23 @@
+body{
+    background: #eee;
+}
+
+.gradient{
+    width: 100vw;
+    height:25vh;
+}
+
+/* .grad-1{ 
+    text-align: center;
+    color: #fff; 
+    /* background: linear-gradient(to left top,#0d0d0d,#1f1d2e,#2e2c51,#3d3b76,#4c4b9d); */
+    /* background: linear-gradient(to left top,#00ff28,#060606 ); */
+/* } */ 
+
+
+/* linear-gradient(direction/angle,color%,color%) */
+.grad-2{
+    /* background: linear-gradient(-40deg,#056b5b 70%,#9dd85c); */
+    /* background: radial-gradient(circle,blue,red,green); */
+    background: radial-gradient(circle,rgba(2,0,36,1) 0%, rgba(33,121,87,0.915) 35%,rgba(0,212,255,1) 100%);
+}
